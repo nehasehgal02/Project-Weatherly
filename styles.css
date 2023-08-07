@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    background-image: url('weather.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    padding: 50px 0 23px 0;
+    color: #23177e;
+    font-size: 45px;
+}
+
+.sub-heading {
+    padding: 5px;
+    color: #910391;
+    font-size: 25px;
+}
+
+.card-title{
+    font-size: 40px;
+    color: #000;
+}
+
+.card-body ul li{
+   font-size: 20px;
+   color: rgb(71, 70, 70);
+}
+
+.temp-card-title {
+    padding: 25px;
+}
+
+.navbar-brand {
+    color: #910391;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.container-fluid input{
+    margin-left: 850px;
+    margin-right: 10px;
+    padding-right: 60px;
+    border: 2px solid #bec5bd;
+}
+
+.btn {
+    background: rgb(84, 187, 221);
+    color: #000;
+    border: 1px solid #414040;
+}
+
+.btn:hover {
+    background: #be0abe;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.container .row{
+    margin-top: 40px;
+}
